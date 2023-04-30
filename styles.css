@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+:root
+{
+  --primary-color:#A86B5F;
+  --secondary-color: #1D1110;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

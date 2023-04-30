@@ -1,0 +1,55 @@
+.product
+{
+  padding: 20px 0;
+  vertical-align: baseline;
+
+}
+.slider-wrap
+{
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+}
+.slider-main
+{
+  position: absolute;
+  width: 100%;
+}
+.item
+{
+  display: inline-block;
+  position: relative;
+  width: 450px;
+  height: 350px;
+  background-color: #fff;
+  margin: 0 20px 0 20px;
+
+}
+.text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:aliceblue;
+
+}
+.img
+{
+  position: absolute;
+  top: 0;
+
+}
+
+.prev {
+  position: absolute;
+  left:33px;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+.next{
+  position:absolute;
+  right: -5px ;
+  top:50%;
+  transform:translate(-50%, -50%)
+}
